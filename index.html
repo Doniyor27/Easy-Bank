@@ -10,6 +10,10 @@
   <title>Document</title>
 </head>
 <body>
+
+<div class="overlay" id="overlay">
+</div>
+
   <header>
     <div class="header container">
       <img src="./image/logo.svg" alt="logo" class="logo">
@@ -21,9 +25,21 @@
         <a href="#" class="header__link">Careers</a>
       </div>
       <a href="#" class="request__link hederniki">Request Invite</a>
-      <a href="#" class="burger"></a>
+      <a href="#" class="burger" id="burger__btn">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </a>
     </div>
   </header>
+
+  <div class="mobile__menu" id="mobile__menu">
+    <a href="#" class="mobile__menu-link">Home</a>
+    <a href="#" class="mobile__menu-link">About</a>
+    <a href="#" class="mobile__menu-link">Contact</a>
+    <a href="#" class="mobile__menu-link">Blog</a>
+    <a href="#" class="mobile__menu-link">Careers</a>
+  </div>
 
   <main>
     <div class="main__inner container">
@@ -233,5 +249,7 @@
     </div>
     </div>
   </footer>
+
+  <script src="./script/main.js"></script>
 </body>
 </html>
